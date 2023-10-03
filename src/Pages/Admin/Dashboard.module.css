@@ -1,0 +1,36 @@
+.productListHead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding: 20px;
+  font-size: 1.5rem;
+  font-weight: 600;  
+}
+.productList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.productList li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #603D1F;
+  padding: 20px;
+}
+.productList li div {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.productList li div span {
+  font-size: 1.125rem;
+  font-weight: 600;  
+}
+.productList li img {
+  width: 120px;
+}

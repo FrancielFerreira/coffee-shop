@@ -1,0 +1,9 @@
+.produtoContainer {
+  margin: 200px 0 80px;
+  min-height: 50vh;
+}
+.productCard {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}

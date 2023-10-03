@@ -1,0 +1,46 @@
+.admin {
+  margin: 200px 0 80px;
+  min-height: 50vh;
+}
+.admin h2 {
+  font-size: 1.25rem;
+  margin-top: 40px;
+}
+.admin nav {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 40px;
+  justify-content: space-between;
+}
+.admin nav button {
+  background: none;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.admin nav button,
+.admin nav a {
+  color: #603D1F;
+  font-weight: 600;
+  align-items: center;
+}
+.admin nav button,
+.admin nav a:global(.active),
+.admin nav a:hover {
+  color: #C89A78;
+}
+.admin form div {
+  margin-bottom: 20px;
+}
+.admin form label {
+  display: block;
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+.admin form input {
+  padding: 12px;
+}
+.admin form button {
+  background: transparent;
+}

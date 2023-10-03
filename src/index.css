@@ -1,0 +1,132 @@
+/* variables */
+:root {
+  --primary-color: #603D1F;
+  --secondary-color: #C89A78;
+  --third-color: #F6EFDD;
+
+  --black: #000;
+  --g-900: #111;
+  --g-500: #555;
+  --g-100: #eee;
+  --white: #fff;
+}
+
+/* reset and main styles*/
+* {
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  font-size: 3.2rem;
+  line-height: 1.1;
+  margin: 0 0 32px;
+  font-weight: 400;
+}
+h2 {
+  margin: 0 0 12px;
+}
+img {
+  max-width: 100%;
+  display: block;
+  width: 100%;
+}
+
+section {
+  min-height: 120px;
+}
+
+/* custom styles */
+.titulo {
+  font-family: 'Kaushan Script', cursive;
+}
+.titulo-alt {
+  font-family: 'Kantumruy Pro', sans-serif;
+}
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.btn,
+.btn-alt {
+  color: #603D1F;
+  border: 1px solid ;
+  font-weight: 500;
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 24px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: .3s;
+}
+.btn-alt {
+  color: #fff;
+}
+.btn:hover {
+  background: #603D1F;
+  color: #fff;
+}
+.btn-alt:hover {
+  color: #603D1F;
+  background: #fff;
+}
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+
+form div {
+  margin-bottom: 20px;
+}
+form label {
+  display: block;
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+form input,
+form textarea {
+  padding: 12px;
+  width: 100%;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #603D1F;
+}
+form button {
+  cursor: pointer;
+}
+
+.error {
+  background-color: #FFCDD2;
+  color: #FF1744;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+  font-weight: 600;
+}
+.success {
+  background-color: #C8E6C9;
+  color: #00C853;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+  font-weight: 600;
+}

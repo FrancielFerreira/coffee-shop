@@ -1,0 +1,8 @@
+.sobre {
+  margin: 200px 0 80px;
+}
+.sobre > div{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}

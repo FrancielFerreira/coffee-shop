@@ -1,0 +1,13 @@
+.register {
+  margin: 200px 0 80px;
+  min-height: 50vh;
+}
+.register form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.register form button {
+  background: transparent;
+  justify-self: start;
+}

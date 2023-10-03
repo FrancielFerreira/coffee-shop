@@ -1,0 +1,40 @@
+.header {
+  padding: 10px 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: -3px 8px 32px rgb(0, 0, 0, 0.1);
+  z-index: 9;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.logo img {
+  width: 80px;
+}
+.navmenu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-family: 'Kantumruy Pro', sans-serif;
+  display: flex;
+}
+.navmenu ul a {
+  display: block;
+  text-decoration: none;
+  color: #603D1F;
+  padding: 8px 16px;
+  font-weight: bold;
+}
+.navmenu ul a:global(.active),
+.navmenu ul a:hover {
+  text-decoration: none;
+  color: #C89A78;
+}
