@@ -3,7 +3,7 @@
 Este projeto é um site de cafeteria criado com o framework React e o Google Firebase como banco de dados. O site conta com uma home, onde são apresentados os principais cafés da cafeteria, uma página sobre contando a história da cafeteria, uma página de contato e uma área administrativa.
 
 ## Veja funcionado
-[Coffee Shop](https://coffee-shop-gules.vercel.app/))
+[Coffee Shop](https://coffee-shop-gules.vercel.app/)
 Deploy na Vercel
 
 ## Tecnologias utilizadas
